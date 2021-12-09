@@ -17,7 +17,7 @@ const config = {
     },
     db_credentials: {
         MONGO_URI: "mongodb+srv://youtubeapi:youtubeapi@cluster0.btetl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-        useNewUrlParser: true
+
 
     },
 }

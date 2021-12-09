@@ -11,7 +11,7 @@ const videoSchema = mongoose.Schema({
     },
     video_details: schema.Types.Mixed,
     createdAt: { type: Date, required: true, default: Date.now }
-}, {strict: false});
+}, { strict: false });
 
 
 let Videos = db.model('videos', videoSchema);
@@ -25,7 +25,7 @@ const insertMany = (docsArray) => {
 }
 
 const getLastVideoTime = () => {
-    return Videos.findOne().sort({'data.publishTime': -1}).limit(1).select({'data.publishTime': 1}).lean();
+    return Videos.findOne().sort({ 'data.publishTime': -1 }).limit(1).select({ 'data.publishTime': 1 }).lean();
 };
 
 function escapeRegex(text) {
@@ -34,7 +34,7 @@ function escapeRegex(text) {
 
 const smartSearchVideo = (video_title) => {
     const regex = new RegExp(escapeRegex(video_title), 'gi');
-    return Videos.find({'data.title': regex}).lean();
+    return Videos.find({ 'data.title': regex }).lean();
 };
 
 module.exports = {

@@ -1,10 +1,10 @@
 'use strict'
 
 const
-    http   = require('http'),
+    http = require('http'),
     config = require('./config.js'),
-    cron   = require('./cron-job'),
-    app    = require('./app');
+    cron = require('./cron-job'),
+    app = require('./app');
 
 
 try {
@@ -16,4 +16,3 @@ try {
     console.log('Error happened during server start', err);
     throw err;
 }
-
