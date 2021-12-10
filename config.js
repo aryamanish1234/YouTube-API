@@ -6,7 +6,7 @@ const config = {
         URL_END_POINT: "https://www.googleapis.com/youtube/v3/search",
         SEARCH_QUERY: "Football",
         PART: "snippet",
-        KEY: "AIzaSyDCIzVTJzE7nY_m7DHUp1S-IkmufvIz64k",
+        KEY: "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",
         TYPE: "video",
         ORDER: "date",
         PUBLISHED_AFTER: "2020-09-01T01:59:53Z",
