@@ -8,15 +8,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maverickjoy/YouTube-API.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/maverickjoy/YouTube-API/issues"
   },
-  "homepage": "https://github.com/maverickjoy/YouTube-API#readme",
   "dependencies": {
     "axios": "^0.20.0",
     "body-parser": "^1.19.0",
