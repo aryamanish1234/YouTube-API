@@ -9,7 +9,7 @@ const config = {
         KEY: "AIzaSyCQpm5PsivHV_Xt8XFg4MQy7S_PyrYHE7Y",
         TYPE: "video",
         ORDER: "date",
-        PUBLISHED_AFTER: "2020-09-01T01:59:53Z",
+        PUBLISHED_AFTER: "2021-12-10T01:59:53Z",
         MAX_RESULTS: 50
     },
     cron_jobs: {
